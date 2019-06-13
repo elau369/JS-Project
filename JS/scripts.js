@@ -13,3 +13,7 @@ for(let a=0; a<repository.length; a++){
     }
 
 }
+
+Object.keys(repository).forEach(function(property){
+  console.log(repository[property]);
+})
